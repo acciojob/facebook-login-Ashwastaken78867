@@ -1,1 +1,98 @@
-/*  your css code here. If applicable */
+body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f2f5;
+        }
+
+        .container {
+            display: flex;
+            width: 70%;
+            max-width: 1200px;
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .left, .right {
+            padding: 2rem;
+            flex: 1;
+        }
+
+        .left {
+            background-color: #f7f9fc;
+        }
+
+        .left img {
+            width: 150px;
+            display: block;
+            margin-bottom: 1rem;
+        }
+
+        .left p {
+            font-size: 1.2rem;
+            color: #606770;
+        }
+
+        .right form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .right input {
+            padding: 0.8rem;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .right button {
+            padding: 0.8rem;
+            font-size: 1rem;
+            color: white;
+            background-color: #1877f2;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .right button.signup {
+            background-color: #42b72a;
+        }
+
+        .right button:hover {
+            opacity: 0.9;
+        }
+
+        .right a {
+            text-decoration: none;
+            color: #1877f2;
+            font-size: 0.9rem;
+            text-align: center;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
